@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | grep -E -o "*bin:*" | wc -l
+echo $(($(echo $PATH | grep -E -o ":/" | wc -l) +1))
