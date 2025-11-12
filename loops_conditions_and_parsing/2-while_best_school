@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #while usage
-while (i<=10); do
+while ((i<=10)); do
 	echo "Best School"
-	i++
+	((i++))
 done
