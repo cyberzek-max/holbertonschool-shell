@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#while usage
 while (i<=10); do
 	echo "Best School"
 	i++
