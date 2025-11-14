@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #clock
 h=0
-while (($h<=12)); do
+while ((h<=12)); do
 	m=1
 	echo "Hour: $h"
-	while (($m<61)); do
+	while ((m<61)); do
 		echo $m
 		((m++))
 	done
